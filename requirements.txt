@@ -3,3 +3,4 @@ numpy
 joblib
 uvicorn
 gunicorn
+scikit-learn
