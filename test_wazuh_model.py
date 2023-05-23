@@ -3,6 +3,7 @@ import warnings
 from typing import List
 import numpy as np
 from fastapi import FastAPI, Query
+import uvicorn
 
 warnings.filterwarnings("ignore")
 
