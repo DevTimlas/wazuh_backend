@@ -25,8 +25,8 @@ def read_items(q: List[float]):
     print(q.shape)
     try:
         res = make_predict(q, model_path2)
-    except:
-        res = "there's an error"
+    except Exception as E:
+        res = f"there's an error: {E}"
     return {"res": res}
 
 if __name__ == "__main__":
