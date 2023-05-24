@@ -28,6 +28,3 @@ def read_items(q: List[float]):
     except Exception as E:
         res = f"there's an error: {E}"
     return {"res": res}
-
-if __name__ == "__main__":
-    uvicorn.run("test_wazuh_model:app", host="0.0.0.0")
